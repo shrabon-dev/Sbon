@@ -1,0 +1,242 @@
+
+
+
+/* extra-small device  */
+@media (min-width:320px) and (max-width:575px) {
+    /* nav bar  */
+    .navbar-brand{
+        width: 140px;
+    }
+    nav ul{
+        text-align: center !important;
+    }
+
+
+    /* banner */
+    #banner__section{
+        text-align: center;
+        padding: 120px 0 80px 0;
+    }
+     .banner__text{
+       text-align: center;
+    }
+    .banner__text h6{
+      font-size: 16px;
+    }
+    .banner__text h4{
+        font-size: 36px;
+      }
+      .banner__text p{
+        font-size: 14px;
+        color: #444444;
+      }
+    .button a{
+        width: 134px;
+        font-size: 14px;
+    } 
+    .banner__img{
+        display: none;
+    } 
+
+    /* about section */
+    #about__section {
+        padding: 0px 0;
+    }
+    .title h2{
+        font-size: 28px;
+    }
+    .title h2::after{
+        animation: none;
+    }
+    .title h6{
+        font-size: 16px;
+    }
+    .about__text {
+        padding-left: 0px;
+    }
+    .review__card{
+        width: 140px;
+        margin-right: 0;
+        padding: 5px 10px;
+    }
+    .review__card p {
+        font-size: 10px;
+    }
+    .review__card i{
+        font-size: 15px;
+    }
+    /* work process */
+    .work__title h2 {
+        font-size: 24px;
+    }
+    .work__title h6 {
+        font-size: 14px;
+    }
+    /* testimonial */
+    #testimonial__section .testimonial{
+        margin-bottom: 120px;
+    }
+    #newsletter__section h6 {
+        font-size: 16px;
+        padding: 0 0;
+        padding-bottom: 20px;
+    }
+    .footer__newsletter{
+        padding-bottom: 50px;
+    }
+    footer .footer__logo img {
+        width: 25%;
+    }
+    footer h2 {
+        margin-top: 14px;
+        margin-bottom: 0px;
+    }
+}
+
+/* small device  */
+@media (min-width:576px) and (max-width:767px) {
+    nav ul{
+        text-align: center !important;
+    }
+
+    /* banner */
+    #banner__section{
+        text-align: center;
+        padding: 120px 0 80px 0;
+    }
+     .banner__text{
+       text-align: center;
+    }
+    .banner__text h6{
+      font-size: 16px;
+    }
+    .banner__text h4{
+        font-size: 36px;
+      }
+      .banner__text p{
+        font-size: 14px;
+        color: #444444;
+      }
+    .button a{
+        width: 150px;
+        font-size: 16px;
+    } 
+    .banner__img{
+        display: none;
+    } 
+      /* about section */
+      #about__section {
+        padding: 0px 0;
+    }
+    .title h2{
+        font-size: 28px;
+    }
+    .title h2::after{
+        animation: none;
+    }
+    .title h6{
+        font-size: 16px;
+    }
+    .about__text {
+        padding-left: 0px;
+    }
+
+    /* work process */
+    .work__title h2 {
+        font-size: 28px;
+    }
+    .work__title h6 {
+        font-size: 16px;
+    }
+    /* testimonial */
+    #testimonial__section .testimonial{
+        margin-bottom: 170px;
+    }
+    #newsletter__section h6 {
+        font-size: 16px;
+        padding: 0 0;
+        padding-bottom: 20px;
+    }
+    .footer__newsletter{
+        padding-bottom: 50px;
+    }
+    footer .footer__logo img {
+        width: 25%;
+    }
+}
+/* medium device  */
+@media (min-width:768px) and (max-width:991px) {
+    nav ul{
+        text-align: center !important;
+    }
+
+    /* banner */
+    #banner__section{
+    padding: 150px 0 80px 0;
+    }
+
+    .banner__text h4{
+        font-size: 66px;
+      }
+    .banner__text p{
+        font-size: 14px;
+        color: #272727;
+      }
+    .button {
+        margin-top: 28px !important;
+    }
+    .button a{
+        width: 170px;
+        font-size: 18px;
+    } 
+    .banner__img{
+        display: none;
+    } 
+    footer h3 {
+        margin-top: 28px;
+    }
+}
+/* large device  */
+@media (min-width:992px) and (max-width:1199px) {
+    /* banner */
+    #banner__section{
+    padding: 150px 0 80px 0;
+    }
+
+ 
+    .banner__text p{
+        font-size: 14px;
+        color: #272727;
+      }
+      .banner__text h4{
+        font-size: 55px;
+        font-weight: 600;
+    }
+    .button {
+        margin-top: 28px !important;
+    }
+    .button a{
+        width: 170px;
+        font-size: 18px;
+    } 
+    .banner__img img {
+        width: 70%;
+        margin-left: 75px;
+    }
+    .review__card{
+        width: 177px;
+        margin-right: 0;
+        padding: 20px 8px;
+    }
+    .review__card p {
+        font-size: 13px;
+    }
+    .review__card i{
+        font-size: 26px;
+    }
+    .work__process h6 {
+        font-size: 20px;
+        padding-top: 60px;
+    }
+ 
+}
